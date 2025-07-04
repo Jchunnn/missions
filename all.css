@@ -104,8 +104,20 @@ p{
 .ml-7{
     margin-left: 7%;
 }
+.pl-1{
+    padding-left: 1%;
+}
+.pl-3{
+    padding-left: 3%;
+}
+.mr-1{
+    margin-right: 1%;
+}
 .pd-32{
     padding: 32px;
+}
+.pb-48{
+    padding-bottom: 48px;
 }
 
 .lh-2{
@@ -114,6 +126,13 @@ p{
 .lh-15{
     line-height: 1.5em;
 }
+.bb{
+    border-bottom: 1px solid #DEE2E6;
+}
+.bl{
+    border-left: 1px solid #212529
+}
+
 .map{
     margin: 0 auto;
 }
@@ -121,4 +140,10 @@ p{
     background-color: #F5FEE7;
     text-align: center;
 }
-
+.history ul{
+    display: flex;
+    
+}
+.type{
+    list-style-type: disc;
+}
