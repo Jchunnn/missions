@@ -53,10 +53,7 @@ table {
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 1296px;
-    margin: 0 auto;
-}
+
 .header{
     margin: 0 auto;
     background: url(../images/hero.png) no-repeat center;
@@ -67,6 +64,9 @@ table {
     text-align: center;   
     padding-top: 151px;
     padding-bottom: 151px;
+}
+.container{
+    max-width: 1296px;
 }
 h1{
     font-size: 40px;  
@@ -82,6 +82,11 @@ h4{
     font-size: 20px;
     font-weight: 700;
     color: #57A203;
+}
+h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6C757D;
 }
 p{
     font-weight: 400;
@@ -103,6 +108,9 @@ p{
 }
 .ml-7{
     margin-left: 7%;
+}
+.ml-2{
+    margin-left: 2%;
 }
 .pl-1{
     padding-left: 1%;
@@ -129,12 +137,24 @@ p{
 .bb{
     border-bottom: 1px solid #DEE2E6;
 }
+.bb-g{
+    border-bottom: 1px solid #57A203;
+}
 .bl{
-    border-left: 1px solid #212529
+    border-left: 1px solid #212529;
+}
+.bl-3{
+    border-left: 3px solid #DEE2E6;
 }
 
 .map{
     margin: 0 auto;
+}
+.intro img{
+   margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 48px;
 }
 .box{
     background-color: #F5FEE7;
@@ -146,4 +166,22 @@ p{
 }
 .type{
     list-style-type: disc;
+}
+.story a{
+   display: block;
+   color: #57A203;
+}
+.story a:hover{
+    color: #D74F4F;
+}
+.footer{
+    width: 100%;
+    background-color: #F8F9FA;
+    color: #6C757D;
+    margin: 0 auto;
+    padding-top:6%;
+    padding-bottom:6%;
+    text-align: center;
+    margin-top: 64px;
+    float: bottom;
 }
